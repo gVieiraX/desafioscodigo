@@ -29,7 +29,7 @@ public class RegistroTransacoesComStream {
             System.out.println("Transacoes:");
 
             IntStream.range(0, transacoes.size())
-                    .mapToObj(i -> (transacoes.get(i).getTipo() == 'D' ? "d de " : "s de ") + String.format("%.1f", transacoes.get(i).getValor()))
+                    .mapToObj(i -> (transacoes.get(i).getTipo() == 'D' ? "d de " : "s de ") + String.format("%.1f",transacoes.get(i).getValor()))
                     .forEach(System.out::println);
         }
     }

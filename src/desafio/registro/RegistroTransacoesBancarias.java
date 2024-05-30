@@ -29,7 +29,7 @@ public class RegistroTransacoesBancarias {
             // Atualiza o saldo da conta e adicionar a transação à lista
             if (tipoTransacao == 'D') {
                 saldo += valorTransacao;
-                transacoes.add("1. Deposito de " + String.format("%.1f", valorTransacao));
+                transacoes.add("1.Deposito de " + String.format("%.1f", valorTransacao));
 
             } else if (tipoTransacao == 'S') {
                 saldo -= valorTransacao;

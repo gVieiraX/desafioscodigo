@@ -52,8 +52,8 @@ public class Desafio {
                 System.out.println("Metodo de abertura: Senha");
                 System.out.println("Cofre aberto!");
             } else {
-                System.out.println("Tipo: Cofre Digital");
-                System.out.println("Metodo de abertura: Senha");
+                System.out.println("Tipo:Cofre Digital");
+                System.out.println("Metodo de abertura:Senha");
                 System.out.println("Senha incorreta!");
             }
         } else if (tipoCofre.equalsIgnoreCase("fisico")) {

@@ -18,7 +18,7 @@ public class Desafio {
 
         ContaPoupanca contaPoupanca = new ContaPoupanca(numeroConta, titular, saldo, taxaJuros);
 
-        System.out.println("Conta Poupanca:");
+        System.out.println("Conta Poupança:");
         contaPoupanca.exibirInformacoes();
     }
 }
@@ -53,6 +53,6 @@ class ContaPoupanca extends ContaBancaria {
     public void exibirInformacoes() {
         super.exibirInformacoes();
         DecimalFormat decimalFormat = new DecimalFormat("#.0");
-        System.out.println("Taxa de juros: " + decimalFormat.format(taxaJuros) + "%");
+        System.out.println("Taxa de juros:" + decimalFormat.format(taxaJuros) + "%");
     }
 }
